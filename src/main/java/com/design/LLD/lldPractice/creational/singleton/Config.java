@@ -1,6 +1,5 @@
 package com.design.LLD.lldPractice.creational.singleton;
 
-// One instance for the whole app. Lazy holder is thread-safe and avoids sync overhead.
 public class Config {
     private final String env;
 

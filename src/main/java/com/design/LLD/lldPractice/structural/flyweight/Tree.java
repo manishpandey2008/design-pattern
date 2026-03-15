@@ -1,6 +1,5 @@
 package com.design.LLD.lldPractice.structural.flyweight;
 
-// Extrinsic state (position) stays here. Type is shared.
 public class Tree {
     private final int x, y;
     private final TreeType type;

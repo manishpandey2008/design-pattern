@@ -1,6 +1,5 @@
 package com.design.LLD.lldPractice.structural.flyweight;
 
-// Shared intrinsic state. Colour and name don't change per tree — store once, reuse.
 public class TreeType {
     private final String name;
     private final String color;

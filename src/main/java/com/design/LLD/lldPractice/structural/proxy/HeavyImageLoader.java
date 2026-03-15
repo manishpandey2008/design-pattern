@@ -1,6 +1,5 @@
 package com.design.LLD.lldPractice.structural.proxy;
 
-// Expensive to create. Proxy defers or caches access.
 public class HeavyImageLoader implements ImageLoader {
     private final String path;
 

@@ -1,6 +1,5 @@
 package com.design.LLD.lldPractice.behavioral.chainofresponsibility;
 
-// Each handler can pass the request along. Stops when someone handles it.
 public abstract class Handler {
     protected Handler next;
 

@@ -1,6 +1,5 @@
 package com.design.LLD.lldPractice.creational.builder;
 
-// Lots of optional fields — constructor would be a mess. Builder keeps it readable.
 public class User {
     private final String name;
     private final String email;

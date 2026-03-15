@@ -3,7 +3,6 @@ package com.design.LLD.lldPractice.creational.prototype;
 import java.util.ArrayList;
 import java.util.List;
 
-// Clone lets you copy an object without knowing its concrete class. Handy for expensive setup.
 public class Document implements Cloneable {
     private String title;
     private List<String> lines = new ArrayList<>();

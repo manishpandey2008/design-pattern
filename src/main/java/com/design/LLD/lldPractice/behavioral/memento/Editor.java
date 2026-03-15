@@ -1,6 +1,5 @@
 package com.design.LLD.lldPractice.behavioral.memento;
 
-// Originator: creates mementos and can restore from them. Undo = restore previous state.
 public class Editor {
     private String text = "";
 
